@@ -1,7 +1,0 @@
-* {
-    cursor: url("media/cursor.png"), default;
-  }
-  ::selection {
-    color: white;
-    background: #252526;
-  }

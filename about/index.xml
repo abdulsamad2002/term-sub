@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Me on Abdul Samad</title>
+    <title>Abouts on Abdul Samad</title>
     <link>http://abdulsamad2002.github.io/about/</link>
-    <description>Recent content in About Me on Abdul Samad</description>
+    <description>Recent content in Abouts on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2024 01:45:48 +0530</lastBuildDate>
     <atom:link href="http://abdulsamad2002.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://abdulsamad2002.github.io/about/about/</link>
+      <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
+      <guid>http://abdulsamad2002.github.io/about/about/</guid>
+      <description>&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;&#xA;&lt;li&gt;Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;capture-the-flag--online-training&#34;&gt;Capture The Flag &amp;amp; Online Training&lt;/h2&gt;&#xA;&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

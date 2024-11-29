@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firstpost on Abdul Samad</title>
+    <link>http://abdulsamad2002.github.io/tags/firstpost/</link>
+    <description>Recent content in Firstpost on Abdul Samad</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Nov 2024 01:45:48 +0530</lastBuildDate>
+    <atom:link href="http://abdulsamad2002.github.io/tags/firstpost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initiation</title>
+      <link>http://abdulsamad2002.github.io/posts/post1/</link>
+      <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
+      <guid>http://abdulsamad2002.github.io/posts/post1/</guid>
+      <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;&#xA;&lt;p&gt;On this site, you can find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;&#xA;&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;&#xA;&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;&#xA;&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

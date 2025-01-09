@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writeup on Abdul Samad</title>
-    <link>http://localhost:1313/tags/writeup/</link>
+    <link>http://abdulsamad2002.github.io/tags/writeup/</link>
     <description>Recent content in Writeup on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://abdulsamad2002.github.io/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mr Robot CTF</title>
-      <link>http://localhost:1313/posts/post2/</link>
+      <link>http://abdulsamad2002.github.io/posts/post2/</link>
       <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
-      <guid>http://localhost:1313/posts/post2/</guid>
+      <guid>http://abdulsamad2002.github.io/posts/post2/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://tryhackme-images.s3.amazonaws.com/room-icons/7a8797ae59733f2a72f0e8a8748be128.jpeg&#34; alt=&#34;MrRobot&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;&#xA;&lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;&#xA;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;&#xA;&lt;p&gt;First of we start with scanning the target&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nmap -sT -T4 -p- -sV 10.10.134.174&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nmap results:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nmap scan report for 10.10.134.174&#xA;Host is up (0.17s latency).&#xA;Not shown: 65532 filtered tcp ports (no-response)&#xA;PORT    STATE  SERVICE  VERSION&#xA;22/tcp  closed ssh&#xA;80/tcp  open   http     Apache httpd&#xA;443/tcp open   ssl/http Apache httpd&#xA;&#xA;Service detection performed. &#xA;Please report any incorrect results at https://nmap.org/submit/&#xA;Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p&gt;</description>
     </item>
   </channel>

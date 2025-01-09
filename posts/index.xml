@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Abdul Samad</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>https://abdulsamad2002.github.io/posts/</link>
         <description>Recent content in Posts on Abdul Samad</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://abdulsamad2002.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Mr Robot CTF</title>
-            <link>http://localhost:1313/posts/post2/</link>
+            <link>https://abdulsamad2002.github.io/posts/post2/</link>
             <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
             
-            <guid>http://localhost:1313/posts/post2/</guid>
+            <guid>https://abdulsamad2002.github.io/posts/post2/</guid>
             <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
 &lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;
 &lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;
@@ -99,10 +99,10 @@ For that we have netcat.</p>
         
         <item>
             <title>Initiation</title>
-            <link>http://localhost:1313/posts/post1/</link>
+            <link>https://abdulsamad2002.github.io/posts/post1/</link>
             <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
             
-            <guid>http://localhost:1313/posts/post1/</guid>
+            <guid>https://abdulsamad2002.github.io/posts/post1/</guid>
             <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
 &lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
 &lt;p&gt;On this site, you can find:&lt;/p&gt;

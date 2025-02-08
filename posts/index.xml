@@ -1,0 +1,42 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Abdul Samad</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Abdul Samad</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Initiation</title>
+            <link>http://localhost:1313/posts/post1/</link>
+            <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
+            
+            <guid>http://localhost:1313/posts/post1/</guid>
+            <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
+&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
+&lt;p&gt;On this site, you can find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;
+&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;
+&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;
+&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.</p>
+<h3 id="what-to-expect">What to Expect</h3>
+<p>On this site, you can find:</p>
+<ul>
+<li>Blog posts about cybersecurity.</li>
+<li>Insights into my learning journey and the challenges I face as a student.</li>
+<li>Updates on my personal projects and achievements in the tech field.</li>
+</ul>
+<h3 id="why-i-built-this-site">Why I Built This Site</h3>
+<p>As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.</p>
+<p>I hope this website will be a valuable resource for anyone interested in technology and cyber defense.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

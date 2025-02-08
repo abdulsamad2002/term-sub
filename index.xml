@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Abdul Samad</title>
-    <link>http://localhost:1313/</link>
+    <link>https://examplesite.com/</link>
     <description>Recent content on Abdul Samad</description>
     <image>
       <title>Abdul Samad</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mr Robot CTF</title>
-      <link>http://localhost:1313/posts/post2/</link>
+      <link>https://examplesite.com/posts/post2/</link>
       <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
-      <guid>http://localhost:1313/posts/post2/</guid>
+      <guid>https://examplesite.com/posts/post2/</guid>
       <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
 &lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;
 &lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;
@@ -39,9 +39,9 @@ Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://examplesite.com/about/</link>
       <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://examplesite.com/about/</guid>
       <description>&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
@@ -54,9 +54,9 @@ Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
     </item>
     <item>
       <title>Initiation</title>
-      <link>http://localhost:1313/posts/post1/</link>
+      <link>https://examplesite.com/posts/post1/</link>
       <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-      <guid>http://localhost:1313/posts/post1/</guid>
+      <guid>https://examplesite.com/posts/post1/</guid>
       <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
 &lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
 &lt;p&gt;On this site, you can find:&lt;/p&gt;

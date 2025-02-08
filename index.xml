@@ -1,48 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abdul Samad</title>
-    <link>https://examplesite.com/</link>
+    <link>https://abdulsamad2002.github.io/</link>
     <description>Recent content on Abdul Samad</description>
-    <image>
-      <title>Abdul Samad</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.135.0</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 23 Nov 2024 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://examplesite.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate>
+    <atom:link href="https://abdulsamad2002.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mr Robot CTF</title>
+      <link>https://abdulsamad2002.github.io/posts/post2/</link>
+      <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
+      <guid>https://abdulsamad2002.github.io/posts/post2/</guid>
+      <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;&#xA;&lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;&#xA;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;&#xA;&lt;p&gt;First of we start with scanning the target&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nmap -sT -T4 -p- -sV 10.10.134.174&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nmap results:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nmap scan report for 10.10.134.174&#xA;Host is up (0.17s latency).&#xA;Not shown: 65532 filtered tcp ports (no-response)&#xA;PORT    STATE  SERVICE  VERSION&#xA;22/tcp  closed ssh&#xA;80/tcp  open   http     Apache httpd&#xA;443/tcp open   ssl/http Apache httpd&#xA;&#xA;Service detection performed. &#xA;Please report any incorrect results at https://nmap.org/submit/&#xA;Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
-      <link>https://examplesite.com/about/</link>
+      <link>https://abdulsamad2002.github.io/about/</link>
       <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-      <guid>https://examplesite.com/about/</guid>
-      <description>&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;
-&lt;li&gt;Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;capture-the-flag--online-training&#34;&gt;Capture The Flag &amp;amp; Online Training&lt;/h2&gt;
-&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;</description>
+      <guid>https://abdulsamad2002.github.io/about/</guid>
+      <description>&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;&#xA;&lt;li&gt;Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;capture-the-flag--online-training&#34;&gt;Capture The Flag &amp;amp; Online Training&lt;/h2&gt;&#xA;&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Initiation</title>
-      <link>https://examplesite.com/posts/post1/</link>
+      <link>https://abdulsamad2002.github.io/posts/post1/</link>
       <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-      <guid>https://examplesite.com/posts/post1/</guid>
-      <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
-&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
-&lt;p&gt;On this site, you can find:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;
-&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;
-&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;
-&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
+      <guid>https://abdulsamad2002.github.io/posts/post1/</guid>
+      <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;&#xA;&lt;p&gt;On this site, you can find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;&#xA;&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;&#xA;&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;&#xA;&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

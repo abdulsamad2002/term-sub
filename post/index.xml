@@ -34,7 +34,7 @@
         <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
         
         <guid>https://samad.uno/p/mr-robot-ctf/</guid>
-        <description>&lt;img src="https://tryhackme-images.s3.amazonaws.com/room-icons/7a8797ae59733f2a72f0e8a8748be128.jpeg" alt="Featured image of post Mr Robot CTF" /&gt;&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
+        <description>&lt;img src="https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg" alt="Featured image of post Mr Robot CTF" /&gt;&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
 &lt;h3 id=&#34;enumeration&#34;&gt;Enumeration
 &lt;/h3&gt;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan
 &lt;/h4&gt;&lt;p&gt;First of we start with scanning the target&lt;/p&gt;

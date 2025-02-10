@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Abdul Samad</title>
+        <link>https://samad.uno/post/</link>
+        <description>Recent content in Posts on Abdul Samad</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 09 Feb 2025 00:55:47 +0530</lastBuildDate><atom:link href="https://samad.uno/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The CIA Triad</title>
+        <link>https://samad.uno/p/the-cia-triad/</link>
+        <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/the-cia-triad/</guid>
+        <description>&lt;img src="https://19678933.fs1.hubspotusercontent-na1.net/hubfs/19678933/CIA-Triad-Alt.png" alt="Featured image of post The CIA Triad" /&gt;&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;
+&lt;p&gt;This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p&gt;
+&lt;p&gt;Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Deep Dive into Vulnerability Assessment</title>
+        <link>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</link>
+        <pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</guid>
+        <description>&lt;img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/609a35eb958d5a46f3f246e5_scanning%20vulnerability.png" alt="Featured image of post Deep Dive into Vulnerability Assessment" /&gt;&lt;h1 id=&#34;a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices&#34;&gt;A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices
+&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.&lt;/p&gt;
+&lt;h2 id=&#34;understanding-vulnerability-assessment&#34;&gt;Understanding Vulnerability Assessment
+&lt;/h2&gt;&lt;p&gt;A vulnerability is any flaw or weakness that could be exploited by an attacker to compromise the confidentiality, integrity, or availability of a system. A vulnerability assessment systematically identifies and quantifies such weaknesses before they can be exploited.&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Mr Robot CTF</title>
+        <link>https://samad.uno/p/mr-robot-ctf/</link>
+        <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/mr-robot-ctf/</guid>
+        <description>&lt;img src="https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg" alt="Featured image of post Mr Robot CTF" /&gt;&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
+&lt;h3 id=&#34;enumeration&#34;&gt;Enumeration
+&lt;/h3&gt;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan
+&lt;/h4&gt;&lt;p&gt;First of we start with scanning the target&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo nmap -sT -T4 -p- -sV 10.10.134.174
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Nmap results:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nmap scan report for 10.10.134.174
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Host is up (0.17s latency).
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Not shown: 65532 filtered tcp ports (no-response)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;PORT    STATE  SERVICE  VERSION
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;22/tcp  closed ssh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;80/tcp  open   http     Apache httpd
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;443/tcp open   ssl/http Apache httpd
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Service detection performed. 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Please report any incorrect results at https://nmap.org/submit/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>About Me</title>
+        <link>https://samad.uno/p/about-me/</link>
+        <pubDate>Mon, 25 Nov 2024 01:45:48 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/about-me/</guid>
+        <description>&lt;img src="https://nerdordie.com/wp-content/uploads/cache/thumbs_1920x0/1812696_cybernetik_panel_thumbnail.webp" alt="Featured image of post About Me" /&gt;&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;
+&lt;li&gt;Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;capture-the-flag--online-training&#34;&gt;Capture The Flag &amp;amp; Online Training
+&lt;/h2&gt;&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Initiation</title>
+        <link>https://samad.uno/p/initiation/</link>
+        <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
+        
+        <guid>https://samad.uno/p/initiation/</guid>
+        <description>&lt;img src="https://i.ytimg.com/vi/N3G17jMEMzE/maxresdefault.jpg" alt="Featured image of post Initiation" /&gt;&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
+&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect
+&lt;/h3&gt;&lt;p&gt;On this site, you can find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;
+&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;
+&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site
+&lt;/h3&gt;&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

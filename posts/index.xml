@@ -1,162 +1,45 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Abdul Samad</title>
-        <link>https://abdulsamad2002.github.io/posts/</link>
-        <description>Recent content in Posts on Abdul Samad</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sun, 09 Feb 2025 00:55:47 +0530</lastBuildDate>
-        <atom:link href="https://abdulsamad2002.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>The CIA Triad</title>
-            <link>https://abdulsamad2002.github.io/posts/post3/</link>
-            <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
-            
-            <guid>https://abdulsamad2002.github.io/posts/post3/</guid>
-            <description>&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Abdul Samad</title>
+    <link>https://samad.uno/posts/</link>
+    <description>Recent content in Posts on Abdul Samad</description>
+    <image>
+      <title>Abdul Samad</title>
+      <url>https://samad.uno/images/papermod-cover.png</url>
+      <link>https://samad.uno/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <copyright>Abdul Samad</copyright>
+    <lastBuildDate>Sun, 09 Feb 2025 00:55:47 +0530</lastBuildDate>
+    <atom:link href="https://samad.uno/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The CIA Triad</title>
+      <link>https://samad.uno/posts/post3/</link>
+      <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
+      <guid>https://samad.uno/posts/post3/</guid>
+      <description>&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;
 &lt;p&gt;This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p&gt;
 &lt;p&gt;Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.</p>
-<p>This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.</p>
-<p>Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.</p>
-<p><img src="https://www.cybermaxx.com/wp-content/uploads/2023/01/cybermaxx-what-is-the-cia-triad-e1673547855403.jpg" alt="CIATriad"></p>
-<p>The CIA triad is unlike a traditional model where you have individual sections; instead, it is a continuous cycle. Whilst the three elements to the CIA triad can arguably overlap, if even just one element is not met, then the other two are rendered useless (similar to the fire triangle). If a security policy does not answer these three sections, it is seldom an effective security policy.</p>
-<p>Whilst the three elements to the CIA triad are arguably self-explanatory, let&rsquo;s explore these and contextualise them into cybersecurity.</p>
-<p><img src="data:image/png;base64,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" alt="Confidentiality"></p>
-<h2 id="confidentiality">Confidentiality</h2>
-<p>This element is the protection of data from unauthorized access and misuse. Organisations will always have some form of sensitive data stored on their systems. To provide confidentiality is to protect this data from parties that it is not intended for.</p>
-<p>There are many real-world examples for this, for example, employee records and accounting documents will be considered sensitive. Confidentiality will be provided in the sense that only HR administrators will access employee records, where vetting and tight access controls are in place. Accounting records are less valuable (and therefore less sensitive), so not as stringent access controls would be in place for these documents. Or, for example, governments using a sensitivity classification rating system (top-secret, classified, unclassified)</p>
-<p><img src="data:image/png;base64,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" alt="Integrity"></p>
-<h2 id="integrity">Integrity</h2>
-<p>The CIA triad element of integrity is the condition where information is kept accurate and consistent unless authorized changes are made. It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).</p>
-<p>Many defences to ensure integrity can be put in place. Access control and rigorous authentication can help prevent authorized users from making unauthorized changes. Hash verifications and digital signatures can help ensure that transactions are authentic and that files have not been modified or corrupted.</p>
-<p><img src="data:image/png;base64,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" alt="Availability"></p>
-<h2 id="availability">Availability</h2>
-<p>In order for data to be useful, it must be available and accessible by the user.</p>
-<p>The main concern in the CIA triad is that the information should be available when authorised users need to access it.</p>
-<p>Availability is very often a key benchmark for an organisation. For example, having 99.99% uptime on their websites or systems (this is laid out in Service Level Agreements). When a system is unavailable, it often results in damage to an organisations reputation and loss of finances. Availability is achieved through a combination of many elements, including:</p>
-<ul>
-<li>Having reliable and well-tested hardware for their information technology servers (i.e. reputable servers)</li>
-<li>Having redundant technology and services in the case of failure of the primary</li>
-<li>Implementing well-versed security protocols to protect technology and services from attack</li>
-</ul>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Deep Dive into Vulnerability Assessment</title>
-            <link>https://abdulsamad2002.github.io/posts/post4/</link>
-            <pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate>
-            
-            <guid>https://abdulsamad2002.github.io/posts/post4/</guid>
-            <description>&lt;h1 id=&#34;a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices&#34;&gt;A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices&lt;/h1&gt;
+    </item>
+    <item>
+      <title>Deep Dive into Vulnerability Assessment</title>
+      <link>https://samad.uno/posts/post4/</link>
+      <pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate>
+      <guid>https://samad.uno/posts/post4/</guid>
+      <description>&lt;h1 id=&#34;a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices&#34;&gt;A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.&lt;/p&gt;
 &lt;h2 id=&#34;understanding-vulnerability-assessment&#34;&gt;Understanding Vulnerability Assessment&lt;/h2&gt;
 &lt;p&gt;A vulnerability is any flaw or weakness that could be exploited by an attacker to compromise the confidentiality, integrity, or availability of a system. A vulnerability assessment systematically identifies and quantifies such weaknesses before they can be exploited.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<h1 id="a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices">A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices</h1>
-<h2 id="introduction">Introduction</h2>
-<p>Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.</p>
-<h2 id="understanding-vulnerability-assessment">Understanding Vulnerability Assessment</h2>
-<p>A vulnerability is any flaw or weakness that could be exploited by an attacker to compromise the confidentiality, integrity, or availability of a system. A vulnerability assessment systematically identifies and quantifies such weaknesses before they can be exploited.</p>
-<h3 id="key-phases-of-vulnerability-assessment">Key Phases of Vulnerability Assessment</h3>
-<ol>
-<li>
-<p><strong>Planning and Scoping</strong></p>
-<ul>
-<li>Define the scope of the assessment (e.g., internal/external network, web applications, cloud infrastructure).</li>
-<li>Identify assets, stakeholders, and compliance requirements.</li>
-<li>Determine the tools and methodologies to be used.</li>
-</ul>
-</li>
-<li>
-<p><strong>Discovery and Enumeration</strong></p>
-<ul>
-<li>Conduct reconnaissance to gather information about target systems.</li>
-<li>Use network mapping tools (e.g., Nmap) to discover active hosts and services.</li>
-<li>Enumerate open ports, running services, and system details.</li>
-</ul>
-</li>
-<li>
-<p><strong>Vulnerability Identification</strong></p>
-<ul>
-<li>Use automated and manual methods to identify known vulnerabilities.</li>
-<li>Leverage databases like CVE (Common Vulnerabilities and Exposures), NVD (National Vulnerability Database), and vendor advisories.</li>
-<li>Employ vulnerability scanning tools such as Nessus, OpenVAS, and Qualys.</li>
-</ul>
-</li>
-<li>
-<p><strong>Vulnerability Analysis and Risk Prioritization</strong></p>
-<ul>
-<li>Assess the severity of identified vulnerabilities using CVSS (Common Vulnerability Scoring System) scores.</li>
-<li>Correlate findings with real-world exploitability data (e.g., Metasploit, Exploit DB).</li>
-<li>Prioritize vulnerabilities based on business impact, exploitability, and criticality.</li>
-</ul>
-</li>
-<li>
-<p><strong>Reporting and Remediation</strong></p>
-<ul>
-<li>Document findings, including risk ratings, affected systems, and potential impact.</li>
-<li>Provide actionable remediation steps (patching, configuration changes, compensating controls).</li>
-<li>Collaborate with IT and security teams to implement fixes.</li>
-</ul>
-</li>
-</ol>
-<h2 id="vulnerability-assessment-methodologies">Vulnerability Assessment Methodologies</h2>
-<p>Several methodologies are used to conduct vulnerability assessments effectively:</p>
-<h3 id="1-network-based-va">1. <strong>Network-Based VA</strong></h3>
-<ul>
-<li>Focuses on identifying weaknesses in network infrastructure, including firewalls, routers, and servers.</li>
-<li>Uses tools like Nessus, Nmap, and OpenVAS.</li>
-</ul>
-<h3 id="2-host-based-va">2. <strong>Host-Based VA</strong></h3>
-<ul>
-<li>Examines operating systems and installed applications for misconfigurations and outdated software.</li>
-<li>Uses tools like Microsoft Baseline Security Analyzer (MBSA), Lynis (for Linux), and Qualys.</li>
-</ul>
-<h3 id="3-application-based-va">3. <strong>Application-Based VA</strong></h3>
-<ul>
-<li>Identifies security flaws in web and mobile applications, including SQL injection, XSS, and authentication flaws.</li>
-<li>Uses tools like Burp Suite, OWASP ZAP, and Nikto.</li>
-</ul>
-<h3 id="4-cloud-and-container-security-va">4. <strong>Cloud and Container Security VA</strong></h3>
-<ul>
-<li>Assesses cloud environments (AWS, Azure, GCP) and containerized applications for security risks.</li>
-<li>Uses tools like AWS Inspector, Aqua Security, and Prisma Cloud.</li>
-</ul>
-<h2 id="popular-tools-for-vulnerability-assessment">Popular Tools for Vulnerability Assessment</h2>
-<ul>
-<li><strong>Nessus</strong> – Comprehensive network vulnerability scanner.</li>
-<li><strong>OpenVAS</strong> – Open-source vulnerability scanning tool.</li>
-<li><strong>Qualys VM</strong> – Cloud-based vulnerability management.</li>
-<li><strong>Burp Suite</strong> – Web application security scanner.</li>
-<li><strong>OWASP ZAP</strong> – Open-source web application scanner.</li>
-<li><strong>Nikto</strong> – Web server vulnerability scanner.</li>
-<li><strong>Lynis</strong> – Linux and Unix system auditing tool.</li>
-<li><strong>AWS Inspector</strong> – Cloud security assessment tool.</li>
-</ul>
-<h2 id="best-practices-for-effective-vulnerability-assessment">Best Practices for Effective Vulnerability Assessment</h2>
-<ol>
-<li><strong>Regular Scanning</strong> – Conduct periodic vulnerability scans to detect new threats.</li>
-<li><strong>Patch Management</strong> – Apply security patches and updates promptly.</li>
-<li><strong>Risk-Based Prioritization</strong> – Focus on high-impact vulnerabilities first.</li>
-<li><strong>Automated and Manual Testing</strong> – Use a combination of tools and manual validation.</li>
-<li><strong>Compliance Alignment</strong> – Ensure assessments align with security frameworks like NIST, ISO 27001, and CIS benchmarks.</li>
-<li><strong>Continuous Monitoring</strong> – Integrate vulnerability assessment with SIEM solutions for real-time threat detection.</li>
-</ol>
-<h2 id="conclusion">Conclusion</h2>
-<p>Vulnerability assessment is a fundamental cybersecurity practice that helps organizations identify and mitigate security risks before they can be exploited. By following structured methodologies, leveraging powerful tools, and adhering to best practices, organizations can significantly enhance their security posture and minimize potential threats. Regular assessments and a proactive security strategy are essential in today&rsquo;s evolving threat landscape.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Mr Robot CTF</title>
-            <link>https://abdulsamad2002.github.io/posts/post2/</link>
-            <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
-            
-            <guid>https://abdulsamad2002.github.io/posts/post2/</guid>
-            <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
+    </item>
+    <item>
+      <title>Mr Robot CTF</title>
+      <link>https://samad.uno/posts/post2/</link>
+      <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
+      <guid>https://samad.uno/posts/post2/</guid>
+      <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
 &lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;
 &lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;
 &lt;p&gt;First of we start with scanning the target&lt;/p&gt;
@@ -174,78 +57,13 @@ Service detection performed.
 Please report any incorrect results at https://nmap.org/submit/
 Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.</p>
-<h3 id="enumeration">Enumeration</h3>
-<h4 id="nmap-scan">Nmap Scan</h4>
-<p>First of we start with scanning the target</p>
-<pre tabindex="0"><code>sudo nmap -sT -T4 -p- -sV 10.10.134.174
-</code></pre><p>Nmap results:</p>
-<pre tabindex="0"><code>Nmap scan report for 10.10.134.174
-Host is up (0.17s latency).
-Not shown: 65532 filtered tcp ports (no-response)
-PORT    STATE  SERVICE  VERSION
-22/tcp  closed ssh
-80/tcp  open   http     Apache httpd
-443/tcp open   ssl/http Apache httpd
-
-Service detection performed. 
-Please report any incorrect results at https://nmap.org/submit/
-Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
-</code></pre><p>We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.</p>
-<p>Opening the web app in the browser provides us with an interesting interface in which we aren&rsquo;t interested.</p>
-<p>Examining the webapp for common directories I stumbled across the <code>/robots.txt</code> endpoint.</p>
-<p>Content of which were as follows:</p>
-<pre tabindex="0"><code>User-agent: *
-fsocity.dic
-key-1-of-3.txt
-</code></pre><p>For the first key we have the end point <code>/key-1-of-3.txt</code>.</p>
-<p>We also found the <code>/fsocity.dic</code> endpoint which has a wordlist which might come in handy later.</p>
-<h4 id="directory-busting">Directory Busting</h4>
-<p>Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:</p>
-<p><img src="/media/dirb.png" alt="DirBuster"></p>
-<p>This yields us some really interesting results:
-<code>/license</code>
-<code>/login</code></p>
-<p>Visiting the <code>/license</code> endpoint we get:</p>
-<p><img src="/media/license.png" alt="/license"></p>
-<p>Scrolling further down we are greeted with a base64 string which screams &ldquo;password&rdquo;</p>
-<p><img src="/media/string.png" alt="/license"></p>
-<p>After decoding the base64 string we found we get not only the password but also the username which quite matches the theme of this box:
-User: <code>Elliot</code>
-Password: <code>ER28-0652</code></p>
-<p>Now equipped with user and password we move on to the <code>/login</code> endpoint.</p>
-<p><img src="/media/login.png" alt="login"></p>
-<p>We login with the credentials we have and we get a wordpress dashboard.</p>
-<p><img src="/media/dash.png" alt="dashboard"></p>
-<h3 id="exploitation">Exploitation</h3>
-<p>Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.</p>
-<p><img src="/media/404.png" alt="editor"></p>
-<p>Now we have access to some code that can be manipulated and used to gain a reverse shell on the target, what we need to do is replace the code for 404.php with a reverse shell.</p>
-<p>Before we execute the reverse shell file on the target we need to setup a listener on our host.
-For that we have netcat.</p>
-<pre tabindex="0"><code>rlwrap nc -lvnp 1234
-</code></pre><p>Using rlwrap is not necessary but it&rsquo;s the quality of life stuff. Now we have our listener up and running.</p>
-<p><img src="/media/nc.png" alt="listener"></p>
-<p>Executing our reverse shell by visiting the URL: <code>http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php</code></p>
-<p>We get a shell.</p>
-<p><img src="/media/shell.png" alt="shell"></p>
-<p>We land as daemon which is not privileged enough to access the &ldquo;key&rdquo; file so we need to change to a system user which in this case is &ldquo;robot&rdquo; it&rsquo;s password is given in a md5 hash.</p>
-<p>We crack the hash using John the Ripper and the fsocity.dic wordlist we found earlier, now we have the password: <code>abcdefghijklmnopqrstuvwxyz</code></p>
-<p>Now inorder to change the user we need to have an interactive shell which right now we don&rsquo;t, so to make the current shell interactive we simply use:</p>
-<pre tabindex="0"><code>python -c &#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;
-</code></pre><p>And we have an interactive shell</p>
-<p><img src="/media/key2.png" alt="shell"></p>
-<p>Now we can easily obtain the second key.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Initiation</title>
-            <link>https://abdulsamad2002.github.io/posts/post1/</link>
-            <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-            
-            <guid>https://abdulsamad2002.github.io/posts/post1/</guid>
-            <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
+    </item>
+    <item>
+      <title>Initiation</title>
+      <link>https://samad.uno/posts/post1/</link>
+      <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
+      <guid>https://samad.uno/posts/post1/</guid>
+      <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
 &lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
 &lt;p&gt;On this site, you can find:&lt;/p&gt;
 &lt;ul&gt;
@@ -255,19 +73,6 @@ For that we have netcat.</p>
 &lt;/ul&gt;
 &lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;
 &lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<p>This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.</p>
-<h3 id="what-to-expect">What to Expect</h3>
-<p>On this site, you can find:</p>
-<ul>
-<li>Blog posts about cybersecurity.</li>
-<li>Insights into my learning journey and the challenges I face as a student.</li>
-<li>Updates on my personal projects and achievements in the tech field.</li>
-</ul>
-<h3 id="why-i-built-this-site">Why I Built This Site</h3>
-<p>As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.</p>
-<p>I hope this website will be a valuable resource for anyone interested in technology and cyber defense.</p>
-]]></content>
-        </item>
-        
-    </channel>
+    </item>
+  </channel>
 </rss>

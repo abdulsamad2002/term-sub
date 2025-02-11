@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Abdul Samad</title>
+    <link>https://samad.uno/posts/</link>
+    <description>Recent content in Posts on Abdul Samad</description>
+    <image>
+      <title>Abdul Samad</title>
+      <url>https://samad.uno/images/papermod-cover.png</url>
+      <link>https://samad.uno/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <copyright>Abdul Samad</copyright>
+    <lastBuildDate>Sun, 09 Feb 2025 00:55:47 +0530</lastBuildDate>
+    <atom:link href="https://samad.uno/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The CIA Triad</title>
+      <link>https://samad.uno/posts/post3/</link>
+      <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
+      <guid>https://samad.uno/posts/post3/</guid>
+      <description>&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;
+&lt;p&gt;This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p&gt;
+&lt;p&gt;Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deep Dive into Vulnerability Assessment</title>
+      <link>https://samad.uno/posts/post4/</link>
+      <pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate>
+      <guid>https://samad.uno/posts/post4/</guid>
+      <description>&lt;h1 id=&#34;a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices&#34;&gt;A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.&lt;/p&gt;
+&lt;h2 id=&#34;understanding-vulnerability-assessment&#34;&gt;Understanding Vulnerability Assessment&lt;/h2&gt;
+&lt;p&gt;A vulnerability is any flaw or weakness that could be exploited by an attacker to compromise the confidentiality, integrity, or availability of a system. A vulnerability assessment systematically identifies and quantifies such weaknesses before they can be exploited.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mr Robot CTF</title>
+      <link>https://samad.uno/posts/post2/</link>
+      <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
+      <guid>https://samad.uno/posts/post2/</guid>
+      <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;
+&lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;
+&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;
+&lt;p&gt;First of we start with scanning the target&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nmap -sT -T4 -p- -sV 10.10.134.174
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nmap results:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nmap scan report for 10.10.134.174
+Host is up (0.17s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+443/tcp open   ssl/http Apache httpd
+
+Service detection performed. 
+Please report any incorrect results at https://nmap.org/submit/
+Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Initiation</title>
+      <link>https://samad.uno/posts/post1/</link>
+      <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
+      <guid>https://samad.uno/posts/post1/</guid>
+      <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;
+&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
+&lt;p&gt;On this site, you can find:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;
+&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;
+&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;
+&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

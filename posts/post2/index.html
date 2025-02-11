@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Mr Robot CTF | Abdul Samad</title>
+<meta name="keywords" content="">
+<meta name="description" content="Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.
+Enumeration
+Nmap Scan
+First of we start with scanning the target
+sudo nmap -sT -T4 -p- -sV 10.10.134.174
+Nmap results:
+Nmap scan report for 10.10.134.174
+Host is up (0.17s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+443/tcp open   ssl/http Apache httpd
+
+Service detection performed. 
+Please report any incorrect results at https://nmap.org/submit/
+Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.">
+<meta name="author" content="">
+<link rel="canonical" href="https://samad.uno/posts/post2/">
+<link crossorigin="anonymous" href="../../assets/css/stylesheet.9de45e225101e4f99701d2b68fc6b8a1ef6027928be6391fa15bf7f56326c909.css" integrity="sha256-neReIlEB5PmXAdK2j8a4oe9gJ5KL5jkfoVv39WMmyQk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://samad.uno/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://samad.uno/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://samad.uno/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://samad.uno/apple-touch-icon.png">
+<link rel="mask-icon" href="https://samad.uno/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://samad.uno/posts/post2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://samad.uno/posts/post2/">
+  <meta property="og:site_name" content="Abdul Samad">
+  <meta property="og:title" content="Mr Robot CTF">
+  <meta property="og:description" content="Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.
+Enumeration Nmap Scan First of we start with scanning the target
+sudo nmap -sT -T4 -p- -sV 10.10.134.174 Nmap results:
+Nmap scan report for 10.10.134.174 Host is up (0.17s latency). Not shown: 65532 filtered tcp ports (no-response) PORT STATE SERVICE VERSION 22/tcp closed ssh 80/tcp open http Apache httpd 443/tcp open ssl/http Apache httpd Service detection performed. Please report any incorrect results at https://nmap.org/submit/ Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-29T12:10:58+05:30">
+    <meta property="article:modified_time" content="2024-11-29T12:10:58+05:30">
+      <meta property="og:image" content="https://samad.uno/images/papermod-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://samad.uno/images/papermod-cover.png">
+<meta name="twitter:title" content="Mr Robot CTF">
+<meta name="twitter:description" content="Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.
+Enumeration
+Nmap Scan
+First of we start with scanning the target
+sudo nmap -sT -T4 -p- -sV 10.10.134.174
+Nmap results:
+Nmap scan report for 10.10.134.174
+Host is up (0.17s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+443/tcp open   ssl/http Apache httpd
+
+Service detection performed. 
+Please report any incorrect results at https://nmap.org/submit/
+Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://samad.uno/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Mr Robot CTF",
+      "item": "https://samad.uno/posts/post2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Mr Robot CTF",
+  "name": "Mr Robot CTF",
+  "description": "Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.\nEnumeration Nmap Scan First of we start with scanning the target\nsudo nmap -sT -T4 -p- -sV 10.10.134.174 Nmap results:\nNmap scan report for 10.10.134.174 Host is up (0.17s latency). Not shown: 65532 filtered tcp ports (no-response) PORT STATE SERVICE VERSION 22/tcp closed ssh 80/tcp open http Apache httpd 443/tcp open ssl/http Apache httpd Service detection performed. Please report any incorrect results at https://nmap.org/submit/ Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.\nEnumeration Nmap Scan First of we start with scanning the target\nsudo nmap -sT -T4 -p- -sV 10.10.134.174 Nmap results:\nNmap scan report for 10.10.134.174 Host is up (0.17s latency). Not shown: 65532 filtered tcp ports (no-response) PORT STATE SERVICE VERSION 22/tcp closed ssh 80/tcp open http Apache httpd 443/tcp open ssl/http Apache httpd Service detection performed. Please report any incorrect results at https://nmap.org/submit/ Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.\nOpening the web app in the browser provides us with an interesting interface in which we aren’t interested.\nExamining the webapp for common directories I stumbled across the /robots.txt endpoint.\nContent of which were as follows:\nUser-agent: * fsocity.dic key-1-of-3.txt For the first key we have the end point /key-1-of-3.txt.\nWe also found the /fsocity.dic endpoint which has a wordlist which might come in handy later.\nDirectory Busting Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:\nThis yields us some really interesting results: /license /login\nVisiting the /license endpoint we get:\nScrolling further down we are greeted with a base64 string which screams “password”\nAfter decoding the base64 string we found we get not only the password but also the username which quite matches the theme of this box: User: Elliot Password: ER28-0652\nNow equipped with user and password we move on to the /login endpoint.\nWe login with the credentials we have and we get a wordpress dashboard.\nExploitation Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.\nNow we have access to some code that can be manipulated and used to gain a reverse shell on the target, what we need to do is replace the code for 404.php with a reverse shell.\nBefore we execute the reverse shell file on the target we need to setup a listener on our host. For that we have netcat.\nrlwrap nc -lvnp 1234 Using rlwrap is not necessary but it’s the quality of life stuff. Now we have our listener up and running.\nExecuting our reverse shell by visiting the URL: http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php\nWe get a shell.\nWe land as daemon which is not privileged enough to access the “key” file so we need to change to a system user which in this case is “robot” it’s password is given in a md5 hash.\nWe crack the hash using John the Ripper and the fsocity.dic wordlist we found earlier, now we have the password: abcdefghijklmnopqrstuvwxyz\nNow inorder to change the user we need to have an interactive shell which right now we don’t, so to make the current shell interactive we simply use:\npython -c 'import pty;pty.spawn(\"/bin/bash\")' And we have an interactive shell\nNow we can easily obtain the second key.\n",
+  "wordCount" : "516",
+  "inLanguage": "en",
+  "image": "https://samad.uno/images/papermod-cover.png","datePublished": "2024-11-29T12:10:58+05:30",
+  "dateModified": "2024-11-29T12:10:58+05:30",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://samad.uno/posts/post2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Abdul Samad",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://samad.uno/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://samad.uno/" accesskey="h" title="Abdul Samad (Alt + H)">Abdul Samad</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://samad.uno/posts/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://samad.uno/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://samad.uno/">Home</a>&nbsp;»&nbsp;<a href="https://samad.uno/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Mr Robot CTF
+    </h1>
+    <div class="post-meta"><span title='2024-11-29 12:10:58 +0530 IST'>November 29, 2024</span>&nbsp;·&nbsp;3 min
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#enumeration" aria-label="Enumeration">Enumeration</a><ul>
+                        
+                <li>
+                    <a href="#nmap-scan" aria-label="Nmap Scan">Nmap Scan</a></li>
+                <li>
+                    <a href="#directory-busting" aria-label="Directory Busting">Directory Busting</a></li></ul>
+                </li>
+                <li>
+                    <a href="#exploitation" aria-label="Exploitation">Exploitation</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.</p>
+<h3 id="enumeration">Enumeration<a hidden class="anchor" aria-hidden="true" href="#enumeration">#</a></h3>
+<h4 id="nmap-scan">Nmap Scan<a hidden class="anchor" aria-hidden="true" href="#nmap-scan">#</a></h4>
+<p>First of we start with scanning the target</p>
+<pre tabindex="0"><code>sudo nmap -sT -T4 -p- -sV 10.10.134.174
+</code></pre><p>Nmap results:</p>
+<pre tabindex="0"><code>Nmap scan report for 10.10.134.174
+Host is up (0.17s latency).
+Not shown: 65532 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+443/tcp open   ssl/http Apache httpd
+
+Service detection performed. 
+Please report any incorrect results at https://nmap.org/submit/
+Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+</code></pre><p>We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.</p>
+<p>Opening the web app in the browser provides us with an interesting interface in which we aren&rsquo;t interested.</p>
+<p>Examining the webapp for common directories I stumbled across the <code>/robots.txt</code> endpoint.</p>
+<p>Content of which were as follows:</p>
+<pre tabindex="0"><code>User-agent: *
+fsocity.dic
+key-1-of-3.txt
+</code></pre><p>For the first key we have the end point <code>/key-1-of-3.txt</code>.</p>
+<p>We also found the <code>/fsocity.dic</code> endpoint which has a wordlist which might come in handy later.</p>
+<h4 id="directory-busting">Directory Busting<a hidden class="anchor" aria-hidden="true" href="#directory-busting">#</a></h4>
+<p>Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:</p>
+<p><img alt="DirBuster" loading="lazy" src="../../media/dirb.png"></p>
+<p>This yields us some really interesting results:
+<code>/license</code>
+<code>/login</code></p>
+<p>Visiting the <code>/license</code> endpoint we get:</p>
+<p><img alt="/license" loading="lazy" src="../../media/license.png"></p>
+<p>Scrolling further down we are greeted with a base64 string which screams &ldquo;password&rdquo;</p>
+<p><img alt="/license" loading="lazy" src="../../media/string.png"></p>
+<p>After decoding the base64 string we found we get not only the password but also the username which quite matches the theme of this box:
+User: <code>Elliot</code>
+Password: <code>ER28-0652</code></p>
+<p>Now equipped with user and password we move on to the <code>/login</code> endpoint.</p>
+<p><img alt="login" loading="lazy" src="../../media/login.png"></p>
+<p>We login with the credentials we have and we get a wordpress dashboard.</p>
+<p><img alt="dashboard" loading="lazy" src="../../media/dash.png"></p>
+<h3 id="exploitation">Exploitation<a hidden class="anchor" aria-hidden="true" href="#exploitation">#</a></h3>
+<p>Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.</p>
+<p><img alt="editor" loading="lazy" src="../../media/404.png"></p>
+<p>Now we have access to some code that can be manipulated and used to gain a reverse shell on the target, what we need to do is replace the code for 404.php with a reverse shell.</p>
+<p>Before we execute the reverse shell file on the target we need to setup a listener on our host.
+For that we have netcat.</p>
+<pre tabindex="0"><code>rlwrap nc -lvnp 1234
+</code></pre><p>Using rlwrap is not necessary but it&rsquo;s the quality of life stuff. Now we have our listener up and running.</p>
+<p><img alt="listener" loading="lazy" src="../../media/nc.png"></p>
+<p>Executing our reverse shell by visiting the URL: <code>http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php</code></p>
+<p>We get a shell.</p>
+<p><img alt="shell" loading="lazy" src="../../media/shell.png"></p>
+<p>We land as daemon which is not privileged enough to access the &ldquo;key&rdquo; file so we need to change to a system user which in this case is &ldquo;robot&rdquo; it&rsquo;s password is given in a md5 hash.</p>
+<p>We crack the hash using John the Ripper and the fsocity.dic wordlist we found earlier, now we have the password: <code>abcdefghijklmnopqrstuvwxyz</code></p>
+<p>Now inorder to change the user we need to have an interactive shell which right now we don&rsquo;t, so to make the current shell interactive we simply use:</p>
+<pre tabindex="0"><code>python -c &#39;import pty;pty.spawn(&#34;/bin/bash&#34;)&#39;
+</code></pre><p>And we have an interactive shell</p>
+<p><img alt="shell" loading="lazy" src="../../media/key2.png"></p>
+<p>Now we can easily obtain the second key.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://samad.uno/posts/post4/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Deep Dive into Vulnerability Assessment</span>
+  </a>
+  <a class="next" href="https://samad.uno/posts/post1/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Initiation</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© Abdul Samad</span> · 
+
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

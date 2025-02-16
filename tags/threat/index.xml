@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threat on Abdul Samad</title>
+    <link>https://terminal.samad.uno/term-sub/tags/threat/</link>
+    <description>Recent content in Threat on Abdul Samad</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Feb 2025 01:45:48 +0530</lastBuildDate>
+    <atom:link href="https://terminal.samad.uno/term-sub/tags/threat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metasploit for SOC Analysts</title>
+      <link>https://terminal.samad.uno/term-sub/posts/2025-02-12-meta/</link>
+      <pubDate>Wed, 12 Feb 2025 01:45:48 +0530</pubDate>
+      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-12-meta/</guid>
+      <description>&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;&#xA;&lt;p&gt;This blog will explore how SOC analysts can use Metasploit effectively to enhance their defensive capabilities.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

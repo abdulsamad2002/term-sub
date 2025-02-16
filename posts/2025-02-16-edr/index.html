@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Understanding Endpoint Detection and Response (EDR): A Deep Dive Introduction Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.
+This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.
+" />
+<meta name="keywords" content="homepage, blog, soc, blueteam, infosec, tools" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://terminal.samad.uno/term-sub/posts/2025-02-16-edr/" />
+
+
+    <title>
+        
+            Understanding EDR: A Deep Dive :: Abdul Samad 
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="/term-sub/main.min.244183cde1a38e0b08f82c11791181288f9aac1cc9618cd6f4e9e7710c5768ba.css" integrity="sha256-JEGDzeGjjgsI&#43;CwReRGBKI&#43;arBzJYYzW9OnncQxXaLo=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/term-sub/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/term-sub/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/term-sub/favicon-16x16.png">
+    <link rel="manifest" href="/term-sub/site.webmanifest">
+    <link rel="mask-icon" href="/term-sub/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/term-sub/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Understanding EDR: A Deep Dive">
+  <meta itemprop="description" content="Understanding Endpoint Detection and Response (EDR): A Deep Dive Introduction Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.
+This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.">
+  <meta itemprop="datePublished" content="2025-02-16T01:45:48+05:30">
+  <meta itemprop="dateModified" content="2025-02-16T01:45:48+05:30">
+  <meta itemprop="wordCount" content="744">
+  <meta itemprop="image" content="https://terminal.samad.uno/term-sub/">
+  <meta itemprop="keywords" content="Soc,Blueteam,Infosec,Tools">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://terminal.samad.uno/term-sub/">
+  <meta name="twitter:title" content="Understanding EDR: A Deep Dive">
+  <meta name="twitter:description" content="Understanding Endpoint Detection and Response (EDR): A Deep Dive Introduction Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.
+This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.">
+
+
+
+    <meta property="og:url" content="https://terminal.samad.uno/term-sub/posts/2025-02-16-edr/">
+  <meta property="og:site_name" content="Abdul Samad">
+  <meta property="og:title" content="Understanding EDR: A Deep Dive">
+  <meta property="og:description" content="Understanding Endpoint Detection and Response (EDR): A Deep Dive Introduction Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.
+This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-16T01:45:48+05:30">
+    <meta property="article:modified_time" content="2025-02-16T01:45:48+05:30">
+    <meta property="article:tag" content="Soc">
+    <meta property="article:tag" content="Blueteam">
+    <meta property="article:tag" content="Infosec">
+    <meta property="article:tag" content="Tools">
+    <meta property="og:image" content="https://terminal.samad.uno/term-sub/">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2025-02-16 01:45:48 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text logo__pathname">
+                SAMAD/</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#4AF626;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/term-sub/about">About</a></li><li><a href="/term-sub/posts">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        4 minutes
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://terminal.samad.uno/term-sub/posts/2025-02-16-edr/">Understanding EDR: A Deep Dive</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <h1 id="understanding-endpoint-detection-and-response-edr-a-deep-dive">Understanding Endpoint Detection and Response (EDR): A Deep Dive</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.</p>
+<p>This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.</p>
+<hr>
+<h2 id="1-edr-architecture-and-components">1. EDR Architecture and Components</h2>
+<p>An EDR system consists of several critical components:</p>
+<h3 id="a-data-collection">a) Data Collection</h3>
+<p>EDR solutions collect a wide range of telemetry data from endpoints, including:</p>
+<ul>
+<li>Process execution logs</li>
+<li>File system modifications</li>
+<li>Registry changes</li>
+<li>Network connections</li>
+<li>Memory dumps</li>
+<li>API calls</li>
+<li>User activity logs</li>
+</ul>
+<h3 id="b-data-storage-and-normalization">b) Data Storage and Normalization</h3>
+<p>Collected data is stored in a centralized repository where it undergoes normalization and correlation. Security Information and Event Management (SIEM) and Extended Detection and Response (XDR) platforms often integrate with EDR solutions to enhance analytics.</p>
+<h3 id="c-behavioral-analytics-and-detection-engine">c) Behavioral Analytics and Detection Engine</h3>
+<p>The core of EDR is its detection engine, which applies:</p>
+<ul>
+<li><strong>Signature-based detection:</strong> Hash-based identification (SHA256, MD5) for known threats.</li>
+<li><strong>Heuristic analysis:</strong> Identifies suspicious patterns based on predefined rules.</li>
+<li><strong>Behavioral detection:</strong> Machine learning (ML) and AI-driven anomaly detection.</li>
+<li><strong>Threat intelligence feeds:</strong> Integration with MITRE ATT&amp;CK, VirusTotal, and other sources.</li>
+</ul>
+<h3 id="d-incident-investigation-and-threat-hunting">d) Incident Investigation and Threat Hunting</h3>
+<ul>
+<li><strong>Automated response mechanisms:</strong> EDR tools trigger alerts and automate remediation actions such as process termination, quarantine, and forensic data collection.</li>
+<li><strong>Threat hunting dashboards:</strong> Analysts manually investigate suspicious behavior using indicators of compromise (IoCs) and tactics, techniques, and procedures (TTPs).</li>
+</ul>
+<hr>
+<h2 id="2-edr-detection-methodologies">2. EDR Detection Methodologies</h2>
+<p>Modern EDR solutions rely on a combination of detection techniques to identify and mitigate threats:</p>
+<h3 id="a-process-behavior-monitoring">a) Process Behavior Monitoring</h3>
+<p>EDR continuously monitors process behavior to detect:</p>
+<ul>
+<li>Suspicious parent-child relationships (e.g., <code>winword.exe</code> spawning <code>cmd.exe</code>)</li>
+<li>Code injection techniques (e.g., DLL injection, process hollowing)</li>
+<li>Unusual API calls (e.g., <code>VirtualAlloc</code>, <code>WriteProcessMemory</code>, <code>CreateRemoteThread</code>)</li>
+</ul>
+<h3 id="b-memory-analysis">b) Memory Analysis</h3>
+<ul>
+<li>Detects in-memory threats using YARA rules.</li>
+<li>Identifies fileless malware executing from PowerShell or WMI.</li>
+</ul>
+<h3 id="c-network-traffic-analysis">c) Network Traffic Analysis</h3>
+<ul>
+<li>Detects C2 (command and control) traffic.</li>
+<li>Identifies DNS tunneling, domain generation algorithms (DGAs), and encrypted traffic anomalies.</li>
+</ul>
+<h3 id="d-kernel-level-monitoring">d) Kernel-Level Monitoring</h3>
+<ul>
+<li>Hooks into kernel-mode drivers to monitor system calls and driver activities.</li>
+<li>Detects rootkits and privilege escalation attempts.</li>
+</ul>
+<hr>
+<h2 id="3-evasion-techniques-used-by-attackers">3. Evasion Techniques Used by Attackers</h2>
+<p>Adversaries constantly develop techniques to bypass EDR solutions. Some common evasion methods include:</p>
+<h3 id="a-process-injection-techniques">a) Process Injection Techniques</h3>
+<ul>
+<li><strong>Process Hollowing:</strong> Replaces a legitimate process memory with malicious code.</li>
+<li><strong>Reflective DLL Injection:</strong> Loads a DLL directly into process memory without touching disk.</li>
+<li><strong>Atom Bombing:</strong> Uses Windows atom tables to inject shellcode.</li>
+</ul>
+<h3 id="b-api-unhooking">b) API Unhooking</h3>
+<ul>
+<li>Attackers remove or replace EDR hooks on Windows APIs (e.g., <code>NtCreateProcess</code>, <code>NtOpenFile</code>).</li>
+<li>Techniques include direct system calls and syscalls obfuscation.</li>
+</ul>
+<h3 id="c-user-mode-hooking-bypass">c) User Mode Hooking Bypass</h3>
+<ul>
+<li><strong>Inline hooking removal:</strong> Restores original function bytes using direct memory patching.</li>
+<li><strong>Syscall obfuscation:</strong> Avoids API hooks by directly invoking syscalls.</li>
+</ul>
+<h3 id="d-code-execution-techniques">d) Code Execution Techniques</h3>
+<ul>
+<li><strong>Living-off-the-land binaries (LOLBins):</strong> Uses trusted Windows binaries (e.g., <code>rundll32.exe</code>, <code>mshta.exe</code>).</li>
+<li><strong>Memory patching:</strong> Modifies security tools to disable logging.</li>
+<li><strong>Indirect Syscalls:</strong> Bypasses user-mode hooks by calling syscalls through intermediate execution.</li>
+</ul>
+<h3 id="e-encrypted-payloads-and-c2-obfuscation">e) Encrypted Payloads and C2 Obfuscation</h3>
+<ul>
+<li><strong>Payload encryption:</strong> Uses AES, XOR, or base64 encoding to evade signature detection.</li>
+<li><strong>Domain fronting:</strong> Hides malicious C2 traffic within legitimate services like <code>Cloudflare</code> or <code>Google</code>.</li>
+</ul>
+<hr>
+<h2 id="4-countermeasures-and-advanced-defenses">4. Countermeasures and Advanced Defenses</h2>
+<p>EDR solutions continuously evolve to counter evasion techniques. Some advanced defenses include:</p>
+<h3 id="a-kernel-based-monitoring">a) Kernel-Based Monitoring</h3>
+<ul>
+<li><strong>EDR drivers operate at kernel level</strong> to detect and block process injection and API hooking attempts.</li>
+<li>Monitors syscalls directly to detect unhooking attempts.</li>
+</ul>
+<h3 id="b-hardware-based-security">b) Hardware-Based Security</h3>
+<ul>
+<li><strong>Virtualization-based security (VBS):</strong> Protects EDR processes using Hyper-V.</li>
+<li><strong>Intel CET (Control-flow Enforcement Technology):</strong> Prevents return-oriented programming (ROP) attacks.</li>
+</ul>
+<h3 id="c-ai-and-ml-based-threat-detection">c) AI and ML-Based Threat Detection</h3>
+<ul>
+<li><strong>Behavioral anomaly detection:</strong> Identifies deviations from normal endpoint activity.</li>
+<li><strong>Memory forensics integration:</strong> Uses volatility plugins to detect in-memory threats.</li>
+</ul>
+<h3 id="d-threat-hunting-best-practices">d) Threat Hunting Best Practices</h3>
+<ul>
+<li>Regularly analyze <strong>process creation logs</strong>, <strong>PowerShell execution logs</strong>, and <strong>network traffic</strong>.</li>
+<li>Look for abnormal parent-child process relationships.</li>
+<li>Use YARA rules to detect in-memory malware.</li>
+</ul>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>EDR has become a critical component in modern security operations, offering deep visibility into endpoint activity and sophisticated threat detection. However, attackers continue to refine their evasion techniques, necessitating continuous improvement in EDR strategies. Organizations should leverage kernel-based monitoring, AI-driven anomaly detection, and proactive threat hunting to enhance their security posture against advanced threats.</p>
+<p>By understanding the inner workings of EDR, security professionals can develop stronger defenses, stay ahead of adversaries, and ensure comprehensive endpoint protection in an ever-evolving threat landscape.</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://terminal.samad.uno/term-sub/tags/soc/">soc</a></span>
+        <span class="tag"><a href="https://terminal.samad.uno/term-sub/tags/blueteam/">blueteam</a></span>
+        <span class="tag"><a href="https://terminal.samad.uno/term-sub/tags/infosec/">infosec</a></span>
+        <span class="tag"><a href="https://terminal.samad.uno/term-sub/tags/tools/">tools</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        744 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2025-02-16 01:45
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+    <div class="pagination">
+        
+
+        <div class="pagination__buttons">
+            
+
+            
+            <span class="button next">
+                <a href="https://terminal.samad.uno/term-sub/posts/2025-02-15-iam/">
+                    <span class="button__text">IAM in Cloud Security</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/term-sub/bundle.min.e89fda0f29b95d33f6f4224dd9e5cf69d84aff3818be2b0d73e731689cc374261b016d17d46f8381962fb4a1577ba3017b1f23509d894f6e66431f988c00889e.js" integrity="sha512-6J/aDym5XTP29CJN2eXPadhK/zgYvisNc&#43;cxaJzDdCYbAW0X1G&#43;DgZYvtKFXe6MBex8jUJ2JT25mQx&#43;YjACIng=="></script>
+
+
+
+
+    </body>
+</html>

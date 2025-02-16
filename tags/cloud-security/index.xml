@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Security on Abdul Samad</title>
-    <link>https://terminal.samad.uno/term-sub/tags/cloud-security/</link>
+    <link>https://terminal.samad.uno/tags/cloud-security/</link>
     <description>Recent content in Cloud Security on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/term-sub/tags/cloud-security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://terminal.samad.uno/tags/cloud-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IAM in Cloud Security</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-15-iam/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-15-iam/</link>
       <pubDate>Sat, 15 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-15-iam/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-15-iam/</guid>
       <description>&lt;h1 id=&#34;the-role-of-identity-and-access-management-iam-in-cloud-security&#34;&gt;The Role of Identity and Access Management (IAM) in Cloud Security&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As organizations migrate to the cloud, security concerns become paramount. One of the most critical components of cloud security is &lt;strong&gt;Identity and Access Management (IAM)&lt;/strong&gt;. IAM ensures that only authorized users and services can access specific cloud resources, enforcing security policies while maintaining compliance. This blog post delves into IAM&amp;rsquo;s role in cloud security, its core components, best practices, and how different cloud service providers implement IAM.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abdul Samad</title>
-    <link>https://terminal.samad.uno/term-sub/</link>
+    <link>https://terminal.samad.uno/</link>
     <description>Recent content on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/term-sub/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://terminal.samad.uno/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding EDR: A Deep Dive</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-16-edr/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-16-edr/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-16-edr/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-16-edr/</guid>
       <description>&lt;h1 id=&#34;understanding-endpoint-detection-and-response-edr-a-deep-dive&#34;&gt;Understanding Endpoint Detection and Response (EDR): A Deep Dive&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.&lt;/p&gt;&#xA;&lt;p&gt;This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IAM in Cloud Security</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-15-iam/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-15-iam/</link>
       <pubDate>Sat, 15 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-15-iam/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-15-iam/</guid>
       <description>&lt;h1 id=&#34;the-role-of-identity-and-access-management-iam-in-cloud-security&#34;&gt;The Role of Identity and Access Management (IAM) in Cloud Security&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As organizations migrate to the cloud, security concerns become paramount. One of the most critical components of cloud security is &lt;strong&gt;Identity and Access Management (IAM)&lt;/strong&gt;. IAM ensures that only authorized users and services can access specific cloud resources, enforcing security policies while maintaining compliance. This blog post delves into IAM&amp;rsquo;s role in cloud security, its core components, best practices, and how different cloud service providers implement IAM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zero Trust Security Architecture</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-15-trust/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-15-trust/</link>
       <pubDate>Sat, 15 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-15-trust/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-15-trust/</guid>
       <description>&lt;h1 id=&#34;what-is-zero-trust-security-and-why-you-should-adopt-it&#34;&gt;What is Zero Trust Security and Why You Should Adopt It&lt;/h1&gt;&#xA;&lt;h2 id=&#34;understanding-zero-trust-security&#34;&gt;Understanding Zero Trust Security&lt;/h2&gt;&#xA;&lt;p&gt;Zero Trust Security is a cybersecurity model that operates on the principle of &amp;ldquo;never trust, always verify.&amp;rdquo; Unlike traditional security models that assume entities inside a network are trustworthy, Zero Trust requires continuous authentication and authorization of every user, device, and system attempting to access resources. It minimizes risk by enforcing strict identity verification and limiting access to only what is necessary.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dealing with DDoS Attacks</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-14-ddos/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-14-ddos/</link>
       <pubDate>Fri, 14 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-14-ddos/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-14-ddos/</guid>
       <description>&lt;h1 id=&#34;dealing-with-ddos-attacks-blue-team-strategies&#34;&gt;Dealing with DDoS Attacks: Blue Team Strategies&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Distributed Denial-of-Service (DDoS) attacks are a persistent and growing threat to organizations worldwide. These attacks aim to overwhelm a target system, network, or service with excessive traffic, rendering it unavailable to legitimate users. As a blue team member, your role is to detect, mitigate, and prevent these attacks effectively. This blog will explore strategies to defend against DDoS attacks using proactive measures, real-time response tactics, and long-term security best practices.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Streamlining Incident Response and Threat Detection</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-13-siem/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-13-siem/</link>
       <pubDate>Thu, 13 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-13-siem/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-13-siem/</guid>
       <description>&lt;h1 id=&#34;soc-automation-streamlining-incident-response-and-threat-detection&#34;&gt;SOC Automation: Streamlining Incident Response and Threat Detection&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;With the ever-evolving cyber threat landscape, Security Operations Centers (SOCs) face increasing pressure to detect and respond to incidents swiftly. Manual processes, though effective, are often time-consuming and resource-intensive. SOC automation is transforming the way security teams handle threats by enhancing efficiency, reducing response times, and minimizing human error. In this blog, we will explore how SOC automation is streamlining incident response and threat detection, its benefits, and the key technologies driving this transformation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Metasploit for SOC Analysts</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-12-meta/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-12-meta/</link>
       <pubDate>Wed, 12 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-12-meta/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-12-meta/</guid>
       <description>&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;&#xA;&lt;p&gt;This blog will explore how SOC analysts can use Metasploit effectively to enhance their defensive capabilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Significance of Bash Scripting</title>
-      <link>https://terminal.samad.uno/term-sub/posts/2025-02-11-bash/</link>
+      <link>https://terminal.samad.uno/posts/2025-02-11-bash/</link>
       <pubDate>Sun, 09 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/2025-02-11-bash/</guid>
+      <guid>https://terminal.samad.uno/posts/2025-02-11-bash/</guid>
       <description>&lt;h1 id=&#34;the-importance-of-bash-automation-in-a-soc&#34;&gt;The Importance of Bash Automation in a SOC&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-bash&#34;&gt;Why Bash?&lt;/h2&gt;&#xA;&lt;p&gt;Bash (Bourne Again Shell) is a powerful scripting language primarily used in Linux environments. Since most security tools, log management systems, and SIEM (Security Information and Event Management) solutions are deployed on Linux-based infrastructures, Bash provides a seamless way to automate security tasks. Here are a few reasons why Bash is indispensable in a SOC:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The CIA Triad</title>
-      <link>https://terminal.samad.uno/term-sub/posts/post3/</link>
+      <link>https://terminal.samad.uno/posts/post3/</link>
       <pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/post3/</guid>
+      <guid>https://terminal.samad.uno/posts/post3/</guid>
       <description>&lt;p&gt;The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p&gt;&#xA;&lt;p&gt;This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p&gt;&#xA;&lt;p&gt;Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deep Dive into Vulnerability Assessment</title>
-      <link>https://terminal.samad.uno/term-sub/posts/post4/</link>
+      <link>https://terminal.samad.uno/posts/post4/</link>
       <pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/post4/</guid>
+      <guid>https://terminal.samad.uno/posts/post4/</guid>
       <description>&lt;h1 id=&#34;a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices&#34;&gt;A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-vulnerability-assessment&#34;&gt;Understanding Vulnerability Assessment&lt;/h2&gt;&#xA;&lt;p&gt;A vulnerability is any flaw or weakness that could be exploited by an attacker to compromise the confidentiality, integrity, or availability of a system. A vulnerability assessment systematically identifies and quantifies such weaknesses before they can be exploited.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mr Robot CTF</title>
-      <link>https://terminal.samad.uno/term-sub/posts/post2/</link>
+      <link>https://terminal.samad.uno/posts/post2/</link>
       <pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/post2/</guid>
+      <guid>https://terminal.samad.uno/posts/post2/</guid>
       <description>&lt;p&gt;Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p&gt;&#xA;&lt;h3 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h3&gt;&#xA;&lt;h4 id=&#34;nmap-scan&#34;&gt;Nmap Scan&lt;/h4&gt;&#xA;&lt;p&gt;First of we start with scanning the target&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo nmap -sT -T4 -p- -sV 10.10.134.174&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nmap results:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Nmap scan report for 10.10.134.174&#xA;Host is up (0.17s latency).&#xA;Not shown: 65532 filtered tcp ports (no-response)&#xA;PORT    STATE  SERVICE  VERSION&#xA;22/tcp  closed ssh&#xA;80/tcp  open   http     Apache httpd&#xA;443/tcp open   ssl/http Apache httpd&#xA;&#xA;Service detection performed. &#xA;Please report any incorrect results at https://nmap.org/submit/&#xA;Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://terminal.samad.uno/term-sub/about/</link>
+      <link>https://terminal.samad.uno/about/</link>
       <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/about/</guid>
+      <guid>https://terminal.samad.uno/about/</guid>
       <description>&lt;p&gt;I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li&gt;&#xA;&lt;li&gt;Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;capture-the-flag--online-training&#34;&gt;Capture The Flag &amp;amp; Online Training&lt;/h2&gt;&#xA;&lt;p&gt;In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Initiation</title>
-      <link>https://terminal.samad.uno/term-sub/posts/post1/</link>
+      <link>https://terminal.samad.uno/posts/post1/</link>
       <pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/posts/post1/</guid>
+      <guid>https://terminal.samad.uno/posts/post1/</guid>
       <description>&lt;p&gt;This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;&#xA;&lt;p&gt;On this site, you can find:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blog posts about cybersecurity.&lt;/li&gt;&#xA;&lt;li&gt;Insights into my learning journey and the challenges I face as a student.&lt;/li&gt;&#xA;&lt;li&gt;Updates on my personal projects and achievements in the tech field.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;why-i-built-this-site&#34;&gt;Why I Built This Site&lt;/h3&gt;&#xA;&lt;p&gt;As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p&gt;</description>
     </item>
   </channel>

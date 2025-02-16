@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Abdul Samad</title>
-    <link>https://terminal.samad.uno/term-sub/tags/</link>
+    <link>https://terminal.samad.uno/tags/</link>
     <description>Recent content in Tags on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/term-sub/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://terminal.samad.uno/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blueteam</title>
-      <link>https://terminal.samad.uno/term-sub/tags/blueteam/</link>
+      <link>https://terminal.samad.uno/tags/blueteam/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/blueteam/</guid>
+      <guid>https://terminal.samad.uno/tags/blueteam/</guid>
       <description></description>
     </item>
     <item>
       <title>Infosec</title>
-      <link>https://terminal.samad.uno/term-sub/tags/infosec/</link>
+      <link>https://terminal.samad.uno/tags/infosec/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/infosec/</guid>
+      <guid>https://terminal.samad.uno/tags/infosec/</guid>
       <description></description>
     </item>
     <item>
       <title>Soc</title>
-      <link>https://terminal.samad.uno/term-sub/tags/soc/</link>
+      <link>https://terminal.samad.uno/tags/soc/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/soc/</guid>
+      <guid>https://terminal.samad.uno/tags/soc/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>https://terminal.samad.uno/term-sub/tags/tools/</link>
+      <link>https://terminal.samad.uno/tags/tools/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/tools/</guid>
+      <guid>https://terminal.samad.uno/tags/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Security</title>
-      <link>https://terminal.samad.uno/term-sub/tags/cloud-security/</link>
+      <link>https://terminal.samad.uno/tags/cloud-security/</link>
       <pubDate>Sat, 15 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/cloud-security/</guid>
+      <guid>https://terminal.samad.uno/tags/cloud-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Network</title>
-      <link>https://terminal.samad.uno/term-sub/tags/network/</link>
+      <link>https://terminal.samad.uno/tags/network/</link>
       <pubDate>Fri, 14 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/network/</guid>
+      <guid>https://terminal.samad.uno/tags/network/</guid>
       <description></description>
     </item>
     <item>
       <title>Siem</title>
-      <link>https://terminal.samad.uno/term-sub/tags/siem/</link>
+      <link>https://terminal.samad.uno/tags/siem/</link>
       <pubDate>Thu, 13 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/siem/</guid>
+      <guid>https://terminal.samad.uno/tags/siem/</guid>
       <description></description>
     </item>
     <item>
       <title>Soar</title>
-      <link>https://terminal.samad.uno/term-sub/tags/soar/</link>
+      <link>https://terminal.samad.uno/tags/soar/</link>
       <pubDate>Thu, 13 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/soar/</guid>
+      <guid>https://terminal.samad.uno/tags/soar/</guid>
       <description></description>
     </item>
     <item>
       <title>Threat</title>
-      <link>https://terminal.samad.uno/term-sub/tags/threat/</link>
+      <link>https://terminal.samad.uno/tags/threat/</link>
       <pubDate>Wed, 12 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/threat/</guid>
+      <guid>https://terminal.samad.uno/tags/threat/</guid>
       <description></description>
     </item>
     <item>
       <title>Scripting</title>
-      <link>https://terminal.samad.uno/term-sub/tags/scripting/</link>
+      <link>https://terminal.samad.uno/tags/scripting/</link>
       <pubDate>Sun, 09 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/term-sub/tags/scripting/</guid>
+      <guid>https://terminal.samad.uno/tags/scripting/</guid>
       <description></description>
     </item>
   </channel>

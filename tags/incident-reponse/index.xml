@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INCIDENT REPONSE on Abdul Samad</title>
+    <link>http://localhost:1313/tags/incident-reponse/</link>
+    <description>Recent content in INCIDENT REPONSE on Abdul Samad</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2025 19:20:21 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/incident-reponse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incident Response: A Deep Dive</title>
+      <link>http://localhost:1313/posts/2025-02-18-incident-response/</link>
+      <pubDate>Tue, 18 Feb 2025 19:20:21 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2025-02-18-incident-response/</guid>
+      <description>&lt;h1 id=&#34;incident-response&#34;&gt;Incident Response&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Incident Response (IR) is a structured approach to handling and managing cybersecurity incidents to minimize damage, recover quickly, and prevent future breaches. In today’s digital landscape, organizations must be prepared to detect, analyze, and mitigate security incidents efficiently. This guide will cover all fundamental aspects of incident response, providing both theoretical and practical knowledge.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-incident-response&#34;&gt;What is Incident Response?&lt;/h2&gt;&#xA;&lt;p&gt;Incident Response refers to the process of identifying, managing, and mitigating cybersecurity threats that have the potential to disrupt business operations or compromise sensitive data. It involves a well-defined set of procedures that security teams follow to respond to threats such as malware infections, data breaches, unauthorized access, and denial-of-service attacks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

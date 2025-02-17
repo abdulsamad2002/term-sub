@@ -1,60 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blueteam on Abdul Samad</title>
-    <link>https://terminal.samad.uno/tags/blueteam/</link>
-    <description>Recent content in Blueteam on Abdul Samad</description>
+    <title>BLUETEAM on Abdul Samad</title>
+    <link>http://localhost:1313/tags/blueteam/</link>
+    <description>Recent content in BLUETEAM on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/tags/blueteam/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Feb 2025 19:20:21 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blueteam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threat Hunting: A Comprehensive Analysis of Proactive Cyber Defence</title>
+      <link>http://localhost:1313/posts/2025-02-25-threat-hunting/</link>
+      <pubDate>Tue, 25 Feb 2025 19:20:21 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2025-02-25-threat-hunting/</guid>
+      <description>&lt;h1 id=&#34;implementing-threat-hunting-as-a-proactive-blue-team-strategy-tools-techniques-and-best-practices&#34;&gt;Implementing Threat Hunting as a Proactive Blue Team Strategy: Tools, Techniques, and Best Practices&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Threat hunting is a proactive cybersecurity practice that involves actively searching for hidden threats within an organization&amp;rsquo;s network. Unlike traditional security operations that rely on alerts from security information and event management (SIEM) systems, threat hunting assumes that adversaries have already bypassed defenses and are lurking within the environment. By adopting an &amp;ldquo;assume breach&amp;rdquo; mentality, organizations can proactively identify and eliminate threats before they cause significant damage. This comprehensive guide explores how organizations can implement threat hunting effectively as part of their blue team strategy, covering tools, techniques, best practices, and real-world applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Understanding SIEM</title>
+      <link>http://localhost:1313/posts/2025-02-20-siem-deep-dive/</link>
+      <pubDate>Thu, 20 Feb 2025 19:20:21 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2025-02-20-siem-deep-dive/</guid>
+      <description>&lt;h1 id=&#34;siem-its-working-and-uses-in-a-soc&#34;&gt;SIEM: Its Working and Uses in a SOC&lt;/h1&gt;&#xA;&lt;h3 id=&#34;introduction-to-siem&#34;&gt;Introduction to SIEM&lt;/h3&gt;&#xA;&lt;p&gt;In the ever-evolving world of cybersecurity, the ability to detect, respond to, and mitigate threats in real time is a critical component of any organization’s defense strategy. &lt;strong&gt;Security Information and Event Management (SIEM)&lt;/strong&gt; systems have emerged as one of the cornerstones of modern security operations. SIEM solutions provide organizations with centralized visibility into their IT environment, offering comprehensive tools to collect, analyze, and correlate log data from a variety of sources. By automating these processes, SIEM solutions help security operations teams detect malicious activities, respond faster to incidents, and comply with security regulations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Incident Response: A Deep Dive</title>
+      <link>http://localhost:1313/posts/2025-02-18-incident-response/</link>
+      <pubDate>Tue, 18 Feb 2025 19:20:21 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2025-02-18-incident-response/</guid>
+      <description>&lt;h1 id=&#34;incident-response&#34;&gt;Incident Response&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Incident Response (IR) is a structured approach to handling and managing cybersecurity incidents to minimize damage, recover quickly, and prevent future breaches. In today’s digital landscape, organizations must be prepared to detect, analyze, and mitigate security incidents efficiently. This guide will cover all fundamental aspects of incident response, providing both theoretical and practical knowledge.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-incident-response&#34;&gt;What is Incident Response?&lt;/h2&gt;&#xA;&lt;p&gt;Incident Response refers to the process of identifying, managing, and mitigating cybersecurity threats that have the potential to disrupt business operations or compromise sensitive data. It involves a well-defined set of procedures that security teams follow to respond to threats such as malware infections, data breaches, unauthorized access, and denial-of-service attacks.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Understanding EDR: A Deep Dive</title>
-      <link>https://terminal.samad.uno/posts/2025-02-16-edr/</link>
+      <link>http://localhost:1313/posts/2025-02-16-edr/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-16-edr/</guid>
+      <guid>http://localhost:1313/posts/2025-02-16-edr/</guid>
       <description>&lt;h1 id=&#34;understanding-endpoint-detection-and-response-edr-a-deep-dive&#34;&gt;Understanding Endpoint Detection and Response (EDR): A Deep Dive&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.&lt;/p&gt;&#xA;&lt;p&gt;This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>IAM in Cloud Security</title>
-      <link>https://terminal.samad.uno/posts/2025-02-15-iam/</link>
+      <link>http://localhost:1313/posts/2025-02-15-iam/</link>
       <pubDate>Sat, 15 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-15-iam/</guid>
+      <guid>http://localhost:1313/posts/2025-02-15-iam/</guid>
       <description>&lt;h1 id=&#34;the-role-of-identity-and-access-management-iam-in-cloud-security&#34;&gt;The Role of Identity and Access Management (IAM) in Cloud Security&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As organizations migrate to the cloud, security concerns become paramount. One of the most critical components of cloud security is &lt;strong&gt;Identity and Access Management (IAM)&lt;/strong&gt;. IAM ensures that only authorized users and services can access specific cloud resources, enforcing security policies while maintaining compliance. This blog post delves into IAM&amp;rsquo;s role in cloud security, its core components, best practices, and how different cloud service providers implement IAM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zero Trust Security Architecture</title>
-      <link>https://terminal.samad.uno/posts/2025-02-15-trust/</link>
+      <link>http://localhost:1313/posts/2025-02-15-trust/</link>
       <pubDate>Sat, 15 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-15-trust/</guid>
+      <guid>http://localhost:1313/posts/2025-02-15-trust/</guid>
       <description>&lt;h1 id=&#34;what-is-zero-trust-security-and-why-you-should-adopt-it&#34;&gt;What is Zero Trust Security and Why You Should Adopt It&lt;/h1&gt;&#xA;&lt;h2 id=&#34;understanding-zero-trust-security&#34;&gt;Understanding Zero Trust Security&lt;/h2&gt;&#xA;&lt;p&gt;Zero Trust Security is a cybersecurity model that operates on the principle of &amp;ldquo;never trust, always verify.&amp;rdquo; Unlike traditional security models that assume entities inside a network are trustworthy, Zero Trust requires continuous authentication and authorization of every user, device, and system attempting to access resources. It minimizes risk by enforcing strict identity verification and limiting access to only what is necessary.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dealing with DDoS Attacks</title>
-      <link>https://terminal.samad.uno/posts/2025-02-14-ddos/</link>
+      <link>http://localhost:1313/posts/2025-02-14-ddos/</link>
       <pubDate>Fri, 14 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-14-ddos/</guid>
+      <guid>http://localhost:1313/posts/2025-02-14-ddos/</guid>
       <description>&lt;h1 id=&#34;dealing-with-ddos-attacks-blue-team-strategies&#34;&gt;Dealing with DDoS Attacks: Blue Team Strategies&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Distributed Denial-of-Service (DDoS) attacks are a persistent and growing threat to organizations worldwide. These attacks aim to overwhelm a target system, network, or service with excessive traffic, rendering it unavailable to legitimate users. As a blue team member, your role is to detect, mitigate, and prevent these attacks effectively. This blog will explore strategies to defend against DDoS attacks using proactive measures, real-time response tactics, and long-term security best practices.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Streamlining Incident Response and Threat Detection</title>
-      <link>https://terminal.samad.uno/posts/2025-02-13-siem/</link>
+      <link>http://localhost:1313/posts/2025-02-13-siem/</link>
       <pubDate>Thu, 13 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-13-siem/</guid>
+      <guid>http://localhost:1313/posts/2025-02-13-siem/</guid>
       <description>&lt;h1 id=&#34;soc-automation-streamlining-incident-response-and-threat-detection&#34;&gt;SOC Automation: Streamlining Incident Response and Threat Detection&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;With the ever-evolving cyber threat landscape, Security Operations Centers (SOCs) face increasing pressure to detect and respond to incidents swiftly. Manual processes, though effective, are often time-consuming and resource-intensive. SOC automation is transforming the way security teams handle threats by enhancing efficiency, reducing response times, and minimizing human error. In this blog, we will explore how SOC automation is streamlining incident response and threat detection, its benefits, and the key technologies driving this transformation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Metasploit for SOC Analysts</title>
-      <link>https://terminal.samad.uno/posts/2025-02-12-meta/</link>
+      <link>http://localhost:1313/posts/2025-02-12-meta/</link>
       <pubDate>Wed, 12 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-12-meta/</guid>
+      <guid>http://localhost:1313/posts/2025-02-12-meta/</guid>
       <description>&lt;h1 id=&#34;metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security&#34;&gt;Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p&gt;&#xA;&lt;p&gt;This blog will explore how SOC analysts can use Metasploit effectively to enhance their defensive capabilities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Significance of Bash Scripting</title>
-      <link>https://terminal.samad.uno/posts/2025-02-11-bash/</link>
+      <link>http://localhost:1313/posts/2025-02-11-bash/</link>
       <pubDate>Sun, 09 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-11-bash/</guid>
+      <guid>http://localhost:1313/posts/2025-02-11-bash/</guid>
       <description>&lt;h1 id=&#34;the-importance-of-bash-automation-in-a-soc&#34;&gt;The Importance of Bash Automation in a SOC&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-bash&#34;&gt;Why Bash?&lt;/h2&gt;&#xA;&lt;p&gt;Bash (Bourne Again Shell) is a powerful scripting language primarily used in Linux environments. Since most security tools, log management systems, and SIEM (Security Information and Event Management) solutions are deployed on Linux-based infrastructures, Bash provides a seamless way to automate security tasks. Here are a few reasons why Bash is indispensable in a SOC:&lt;/p&gt;</description>
     </item>
   </channel>

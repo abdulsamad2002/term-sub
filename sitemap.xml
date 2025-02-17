@@ -2,83 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://terminal.samad.uno/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blueteam/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/soc/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/threat/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-02-25-threat-hunting/</loc>
+    <lastmod>2025-02-25T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tools/</loc>
+    <lastmod>2025-02-20T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-02-20-siem-deep-dive/</loc>
+    <lastmod>2025-02-20T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/incident-reponse/</loc>
+    <lastmod>2025-02-18T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2025-02-18-incident-response/</loc>
+    <lastmod>2025-02-18T19:20:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/infosec/</loc>
     <lastmod>2025-02-16T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/tags/blueteam/</loc>
+    <loc>http://localhost:1313/posts/2025-02-16-edr/</loc>
     <lastmod>2025-02-16T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/tags/infosec/</loc>
-    <lastmod>2025-02-16T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/posts/</loc>
-    <lastmod>2025-02-16T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/tags/soc/</loc>
-    <lastmod>2025-02-16T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/tags/</loc>
-    <lastmod>2025-02-16T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/tags/tools/</loc>
-    <lastmod>2025-02-16T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-16-edr/</loc>
-    <lastmod>2025-02-16T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/tags/cloud-security/</loc>
+    <loc>http://localhost:1313/tags/cloud-security/</loc>
     <lastmod>2025-02-15T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-15-iam/</loc>
+    <loc>http://localhost:1313/posts/2025-02-15-iam/</loc>
     <lastmod>2025-02-15T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-15-trust/</loc>
+    <loc>http://localhost:1313/posts/2025-02-15-trust/</loc>
     <lastmod>2025-02-15T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-14-ddos/</loc>
+    <loc>http://localhost:1313/posts/2025-02-14-ddos/</loc>
     <lastmod>2025-02-14T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/tags/network/</loc>
+    <loc>http://localhost:1313/tags/network/</loc>
     <lastmod>2025-02-14T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/tags/siem/</loc>
+    <loc>http://localhost:1313/tags/siem/</loc>
     <lastmod>2025-02-13T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/tags/soar/</loc>
+    <loc>http://localhost:1313/tags/soar/</loc>
     <lastmod>2025-02-13T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-13-siem/</loc>
+    <loc>http://localhost:1313/posts/2025-02-13-siem/</loc>
     <lastmod>2025-02-13T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-12-meta/</loc>
+    <loc>http://localhost:1313/posts/2025-02-12-meta/</loc>
     <lastmod>2025-02-12T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/tags/threat/</loc>
-    <lastmod>2025-02-12T01:45:48+05:30</lastmod>
-  </url><url>
-    <loc>https://terminal.samad.uno/tags/scripting/</loc>
+    <loc>http://localhost:1313/tags/scripting/</loc>
     <lastmod>2025-02-09T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/2025-02-11-bash/</loc>
+    <loc>http://localhost:1313/posts/2025-02-11-bash/</loc>
     <lastmod>2025-02-09T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/post3/</loc>
+    <loc>http://localhost:1313/posts/post3/</loc>
     <lastmod>2025-02-09T00:55:47+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/post4/</loc>
+    <loc>http://localhost:1313/posts/post4/</loc>
     <lastmod>2025-02-01T01:06:03+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/post2/</loc>
+    <loc>http://localhost:1313/posts/post2/</loc>
     <lastmod>2024-11-29T12:10:58+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-11-23T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/posts/post1/</loc>
+    <loc>http://localhost:1313/posts/post1/</loc>
     <lastmod>2024-11-23T01:45:48+05:30</lastmod>
   </url><url>
-    <loc>https://terminal.samad.uno/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>https://terminal.samad.uno/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

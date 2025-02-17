@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on Abdul Samad</title>
-    <link>https://terminal.samad.uno/tags/tools/</link>
-    <description>Recent content in Tools on Abdul Samad</description>
+    <title>TOOLS on Abdul Samad</title>
+    <link>http://localhost:1313/tags/tools/</link>
+    <description>Recent content in TOOLS on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2025 19:20:21 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding SIEM</title>
+      <link>http://localhost:1313/posts/2025-02-20-siem-deep-dive/</link>
+      <pubDate>Thu, 20 Feb 2025 19:20:21 +0530</pubDate>
+      <guid>http://localhost:1313/posts/2025-02-20-siem-deep-dive/</guid>
+      <description>&lt;h1 id=&#34;siem-its-working-and-uses-in-a-soc&#34;&gt;SIEM: Its Working and Uses in a SOC&lt;/h1&gt;&#xA;&lt;h3 id=&#34;introduction-to-siem&#34;&gt;Introduction to SIEM&lt;/h3&gt;&#xA;&lt;p&gt;In the ever-evolving world of cybersecurity, the ability to detect, respond to, and mitigate threats in real time is a critical component of any organization’s defense strategy. &lt;strong&gt;Security Information and Event Management (SIEM)&lt;/strong&gt; systems have emerged as one of the cornerstones of modern security operations. SIEM solutions provide organizations with centralized visibility into their IT environment, offering comprehensive tools to collect, analyze, and correlate log data from a variety of sources. By automating these processes, SIEM solutions help security operations teams detect malicious activities, respond faster to incidents, and comply with security regulations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Understanding EDR: A Deep Dive</title>
-      <link>https://terminal.samad.uno/posts/2025-02-16-edr/</link>
+      <link>http://localhost:1313/posts/2025-02-16-edr/</link>
       <pubDate>Sun, 16 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-16-edr/</guid>
+      <guid>http://localhost:1313/posts/2025-02-16-edr/</guid>
       <description>&lt;h1 id=&#34;understanding-endpoint-detection-and-response-edr-a-deep-dive&#34;&gt;Understanding Endpoint Detection and Response (EDR): A Deep Dive&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Endpoint Detection and Response (EDR) solutions have become a cornerstone of modern cybersecurity, offering advanced threat detection, investigation, and response capabilities. Traditional antivirus (AV) and endpoint protection platforms (EPP) focus primarily on signature-based detection, but EDR extends these capabilities by incorporating behavioral analysis, threat hunting, and real-time monitoring to detect advanced persistent threats (APTs) and sophisticated cyberattacks.&lt;/p&gt;&#xA;&lt;p&gt;This article provides a deep technical dive into EDR architecture, detection methodologies, evasion techniques, and countermeasures.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on Abdul Samad</title>
-    <link>https://terminal.samad.uno/tags/network/</link>
+    <link>http://localhost:1313/tags/network/</link>
     <description>Recent content in Network on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dealing with DDoS Attacks</title>
-      <link>https://terminal.samad.uno/posts/2025-02-14-ddos/</link>
+      <link>http://localhost:1313/posts/2025-02-14-ddos/</link>
       <pubDate>Fri, 14 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-14-ddos/</guid>
+      <guid>http://localhost:1313/posts/2025-02-14-ddos/</guid>
       <description>&lt;h1 id=&#34;dealing-with-ddos-attacks-blue-team-strategies&#34;&gt;Dealing with DDoS Attacks: Blue Team Strategies&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Distributed Denial-of-Service (DDoS) attacks are a persistent and growing threat to organizations worldwide. These attacks aim to overwhelm a target system, network, or service with excessive traffic, rendering it unavailable to legitimate users. As a blue team member, your role is to detect, mitigate, and prevent these attacks effectively. This blog will explore strategies to defend against DDoS attacks using proactive measures, real-time response tactics, and long-term security best practices.&lt;/p&gt;</description>
     </item>
   </channel>

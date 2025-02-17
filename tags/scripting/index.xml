@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scripting on Abdul Samad</title>
-    <link>https://terminal.samad.uno/tags/scripting/</link>
+    <link>http://localhost:1313/tags/scripting/</link>
     <description>Recent content in Scripting on Abdul Samad</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Feb 2025 01:45:48 +0530</lastBuildDate>
-    <atom:link href="https://terminal.samad.uno/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Significance of Bash Scripting</title>
-      <link>https://terminal.samad.uno/posts/2025-02-11-bash/</link>
+      <link>http://localhost:1313/posts/2025-02-11-bash/</link>
       <pubDate>Sun, 09 Feb 2025 01:45:48 +0530</pubDate>
-      <guid>https://terminal.samad.uno/posts/2025-02-11-bash/</guid>
+      <guid>http://localhost:1313/posts/2025-02-11-bash/</guid>
       <description>&lt;h1 id=&#34;the-importance-of-bash-automation-in-a-soc&#34;&gt;The Importance of Bash Automation in a SOC&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-bash&#34;&gt;Why Bash?&lt;/h2&gt;&#xA;&lt;p&gt;Bash (Bourne Again Shell) is a powerful scripting language primarily used in Linux environments. Since most security tools, log management systems, and SIEM (Security Information and Event Management) solutions are deployed on Linux-based infrastructures, Bash provides a seamless way to automate security tasks. Here are a few reasons why Bash is indispensable in a SOC:&lt;/p&gt;</description>
     </item>
   </channel>
